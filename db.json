@@ -1,0 +1,31 @@
+{
+  "users": [],
+  "museums": [
+    {
+      "id": 1,
+      "cover": "https://www.spuntidiviaggio.it/wp-content/uploads/2020/07/Cosa-vedere-alla-Galleria-degli-Uffizi-a-Firenze-Guida-e-consigli.jpg",
+      "name": "Galleria degli uffizi",
+      "address": "Piazzale degli Uffizi, 6, 50122 Firenze",
+      "description": "La Galleria degli Uffizi[1] è un museo statale di Firenze, che fa parte del complesso museale denominato Gallerie degli Uffizi e comprendente, oltre alla suddetta galleria, il Corridoio Vasariano, le collezioni di Palazzo Pitti e il Giardino dei Boboli, che insieme costituiscono per quantità e qualità delle opere raccolte uno dei più importanti musei del mondo.\n\nVi si trovano la più cospicua collezione esistente di Raffaello e Botticelli, oltre a nuclei fondamentali di opere di Giotto, Tiziano, Pontormo, Bronzino, Andrea del Sarto, Caravaggio, Dürer, Rubens ed altri ancora. Mentre a Palazzo Pitti si concentrano le opere pittoriche del Cinquecento e del Barocco (spaziando da Giorgione a Tiziano, da Ribera a Van Dyck), ma anche dell'Ottocento e Novecento italiano, il corridoio Vasariano ospitava fino al 2018 parte della Collezione di Autoritratti (oltre 1.700), che prossimamente sarà ospitata nella Galleria delle Statue e delle Pitture.\n\nIl museo ospita una raccolta di opere d'arte inestimabili, derivanti, come nucleo fondamentale, dalle collezioni dei Medici, arricchite nei secoli da lasciti, scambi e donazioni, tra cui spicca un fondamentale gruppo di opere religiose derivate dalle soppressioni di monasteri e conventi tra il XVIII e il XIX secolo. Divisa in varie sale allestite per scuole e stili in ordine cronologico, l'esposizione mostra opere dal XII al XVIII secolo, con la migliore collezione al mondo di opere del Rinascimento fiorentino. Di grande pregio sono anche la collezione di statuaria antica e soprattutto quella dei disegni e delle stampe che, conservata nel Gabinetto omonimo, è una delle più cospicue ed importanti al mondo.",
+      "photos": [
+        "https://www.bigliettiuffizi.com/wp-content/uploads/2018/06/Venere-di-Botticelli-1080x675.jpg",
+        "https://www.bigliettiuffizi.com/wp-content/uploads/2018/06/La-Primavera-di-Botticelli-1024x673.jpg",
+        "https://1890056479.rsc.cdn77.org/rivista/immagini/2018/885/raffaello-madonna-cardellino.jpg",
+        "http://www.arte.it/foto/600x450/4c/29311-04-Cimabue_maesta.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "cover": "https://siviaggia.it/wp-content/uploads/sites/2/2019/08/il-museo-del-louvre-al-tramonto.jpg",
+      "name": "Museo del Louvre",
+      "address": "Rue de Rivoli, 75001 Paris, Francia",
+      "description": "Il museo ha preso il nome dal palazzo che lo ospita. Originariamente era una fortezza, costruita alla fine del XII secolo durante il regno del re capetingio Filippo II,[2] nei rifacimenti successivi fu sede reale e governativa.\n\nLa conformazione attuale del palazzo origina dai lavori ordinati da Carlo V di Francia nella seconda metà del XIV secolo.[3] Fu la sede effettiva della monarchia francese fino al 1682, quando Luigi XIV si trasferì nella Reggia di Versailles, e rimase comunque la sua sede formale fino al termine dell'Ancien Régime nel 1789. Fu il governo rivoluzionario a dare piena attuazione a progetti già avviati di trasformazione in museo, inaugurandolo come tale nel 1793, anche se il palazzo continuò ad ospitare enti governativi fino agli anni novanta.\n\nPer iniziativa del presidente Mitterrand fu sottoposto a lavori di ampliamento negli anni ottanta e novanta secondo il progetto denominato Grand Louvre, che comprende la caratteristica piramide di vetro e acciaio nel cortile principale.\n\nIl ruolo centrale della Francia nella storia dell'ottocento contribuì grandemente all'accrescimento della collezione museale, che comprende alcune delle più famose opere d'arte del mondo e manufatti di grande valore storico, come la stele degli avvoltoi e quella di Hammurabi.\n\nVi sono esposte la Gioconda e la Vergine delle Rocce di Leonardo da Vinci, le Nozze di Cana (Veronese), due Prigioni di Michelangelo Buonarroti, Bacco e Arianna di Giambattista Pittoni, Amore e Psiche di Antonio Canova, Il giuramento degli Orazi di Jacques-Louis David, La zattera della Medusa di Théodore Géricault, La Libertà che guida il popolo di Eugène Delacroix, la Venere di Milo e la Nike di Samotracia, il Codice di Hammurabi.\n\nLa statua equestre di Luigi XIV rappresenta il punto di origine del cosiddetto Axe historique, anche se il palazzo non è allineato con l'asse stesso.",
+      "photos": [
+        "https://sognandoparigi.imgix.net/wp-content/uploads/2020/09/museo-louvre-parigi.jpg",
+        "https://a.travel-assets.com/findyours-php/viewfinder/images/res40/92000/92006.jpg",
+        "https://static.studentville.it/app/uploads/2018/11/museo-2-1.jpg",
+        "https://cdn.studenti.stbm.it/images/2017/01/10/gioconda-orig.jpeg"
+      ]
+    }
+  ]
+}

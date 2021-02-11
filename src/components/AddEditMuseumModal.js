@@ -72,7 +72,7 @@ class AddEditMuseumModal extends React.Component {
                 onClose={() => console.log("close")}
                 aria-labelledby="max-width-dialog-title"
             >
-                <DialogTitle id="max-width-dialog-title">{museumStore.currentMuseum ? 'Update' : 'Add'} Museum</DialogTitle>
+                <DialogTitle id="max-width-dialog-title">{museumStore.currentMuseum ? 'Modifica' : 'Aggiungi'} Museo</DialogTitle>
                 <DialogContent>
                     <Form
                         onSubmit={this.onSubmit}
@@ -129,10 +129,10 @@ class AddEditMuseumModal extends React.Component {
                                     </Grid>
                                     <Grid container spacing={2} style={{ marginTop: 20, marginBottom: 20 }}>
                                         <Grid item xs={6}>
-                                            <Button color={'secondary'} onClick={() => museumStore.resetMuseum()} variant={'outlined'} fullWidth>Dismiss</Button>
+                                            <Button color={'secondary'} onClick={() => museumStore.resetMuseum()} variant={'outlined'} fullWidth>Annulla</Button>
                                         </Grid>
                                         <Grid item xs={6}>
-                                            <Button type={'submit'} color={'primary'} variant={'outlined'} fullWidth>Save</Button>
+                                            <Button type={'submit'} color={'primary'} variant={'outlined'} fullWidth>Salva</Button>
                                         </Grid>
                                     </Grid>
                                 </form>

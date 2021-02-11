@@ -129,7 +129,7 @@ class UserProfile extends React.Component {
                             museumStore.museums.map(museum => (
                                 <UserMuseumCard museum={museum} editHandle={this.editMuseum}/>
                             ))
-                        ) : (<Typography variant="body1" color="textSecondary" component="p" style={{marginTop: 20}}> No museums found. </Typography>)
+                        ) : (<Typography variant="body1" color="textSecondary" component="p" style={{marginTop: 20}}> Nessun museo trovato. </Typography>)
                     )}
                 </div>
                 <AddEditMuseumModal/>

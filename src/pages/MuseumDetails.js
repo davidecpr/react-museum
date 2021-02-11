@@ -83,7 +83,7 @@ class MuseumDetails extends React.Component {
                         </AvatarGroup>
                         <NavLink to={'/'} style={{color: "#fff"}}>
                             <Button variant={'contained'} color={'primary'} fullWidth
-                                    style={{padding: 15, marginTop: 40}}>Back to home</Button>
+                                    style={{padding: 15, marginTop: 40, marginBottom: 40}}>Torna alla home</Button>
                         </NavLink>
                     </div>
                 ) : (

@@ -8,15 +8,17 @@ class UserStore {
     @observable currentUser = {};
     @observable openEditUserModal = false;
     @observable visible = false
+    @observable loginError = false
 
     @action
     async signin(user) {
         try {
+            this.loginError = false
             const response = await museumClient.post('/signin', {email: user.email, password: user.password})
             const JWT = response.data.accessToken
             localStorage.setItem('JWT', JWT)
         } catch (e) {
-            console.error(e)
+            throw e
         }
     }
 
@@ -32,7 +34,7 @@ class UserStore {
             const JWT = response.data.accessToken
             localStorage.setItem('JWT', JWT)
         } catch (e) {
-            console.error(e)
+            throw e
         }
     }
 

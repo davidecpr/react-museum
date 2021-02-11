@@ -70,7 +70,7 @@ class EditUserModal extends React.Component {
                 onClose={() => console.log("close")}
                 aria-labelledby="max-width-dialog-title"
             >
-                <DialogTitle id="max-width-dialog-title">Update Profile</DialogTitle>
+                <DialogTitle id="max-width-dialog-title">Aggiorna profilo</DialogTitle>
                 <DialogContent>
                     <Form
                         onSubmit={this.onSubmit}
@@ -136,10 +136,10 @@ class EditUserModal extends React.Component {
                                     </Grid>
                                     <Grid container spacing={2} style={{ marginTop: 20, marginBottom: 20 }}>
                                         <Grid item xs={6}>
-                                            <Button color={'secondary'} onClick={() => userStore.openEditUserModal = false} variant={'outlined'} fullWidth>Dismiss</Button>
+                                            <Button color={'secondary'} onClick={() => userStore.openEditUserModal = false} variant={'outlined'} fullWidth>Annulla</Button>
                                         </Grid>
                                         <Grid item xs={6}>
-                                            <Button type={'submit'} color={'primary'} variant={'outlined'} fullWidth>Save</Button>
+                                            <Button type={'submit'} color={'primary'} variant={'outlined'} fullWidth>Salva</Button>
                                         </Grid>
                                     </Grid>
                                 </form>
